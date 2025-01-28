@@ -1,0 +1,16 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "qr code generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "md parvez mussaruf",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.3.2",
+    "qr-image": "^3.2.0"
+  }
+}

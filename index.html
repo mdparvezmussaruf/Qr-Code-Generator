@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Code Generator</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <h1>Qr Code Generator</h1>
+    <form action="generate.php" method="post">
+        <input type="text" name="text" placeholder="Enter text to generate qr code">
+        <button type="submit">Generate</button>
+    </form>
+    
+    <h3>Your QR Code</h3>
+    <div class="qr-code">
+        <img src="" alt="Qr Code" id="qr-code">
+    </div>
+
+    <footer>
+        <p>Developed by <a href="https://mdparvezmussaruf.github.io/myPortfolio/">Md Parvez Mussaruf</a></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcode"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="index.js"></script>
+   
+</body>
+</html>
